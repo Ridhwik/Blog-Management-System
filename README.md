@@ -49,15 +49,16 @@ Create a new database (example: blog_db)
 
 Run the SQL script below to create the blog_posts table:
 
-`CREATE TABLE `blog_posts` (
+<pre> ```CREATE TABLE `blog_posts` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(255) NOT NULL,
   `content` TEXT NOT NULL,
   `image_path` VARCHAR(255),
   `author_id` INT(11) NOT NULL,
   `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`)`
+  PRIMARY KEY (`id`)
 );
+  ``` </pre>
 
 3️⃣ Update Config File
 
@@ -66,7 +67,7 @@ Go to:
 includes/config.php
 And update your database login info:
 
-$conn = mysqli_connect("localhost", "your_mysql_username", "your_mysql_password", "blog_db");
+<pre> ```$conn = mysqli_connect("localhost", "your_mysql_username", "your_mysql_password", "blog_db"); ``` </pre>
 
 
 5️⃣ Run It on Localhost
