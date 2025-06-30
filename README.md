@@ -15,11 +15,17 @@ Here’s how everything is organized:
 
 /blog-system/
 ├── admin/ → Admin panel (login, dashboard, create/edit post)
+
 ├── includes/ → Config and helper files
+
 ├── assets/ → CSS & JS files for styling and frontend
+
 ├── uploads/ → Where uploaded blog images are stored
+
 ├── index.php → Homepage (lists all blogs)
+
 └── blog_post.php → Single blog view
+
 
 ## 🔧 What You Can Do
 
