@@ -49,14 +49,14 @@ Create a new database (example: blog_db)
 
 Run the SQL script below to create the blog_posts table:
 
-CREATE TABLE `blog_posts` (
+`CREATE TABLE `blog_posts` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(255) NOT NULL,
   `content` TEXT NOT NULL,
   `image_path` VARCHAR(255),
   `author_id` INT(11) NOT NULL,
   `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`)`
 );
 
 3️⃣ Update Config File
