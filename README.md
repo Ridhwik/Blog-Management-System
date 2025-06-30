@@ -32,7 +32,6 @@ Here’s how everything is organized:
 
 - Only admins can log in and manage blog posts ✅
 - Add/edit/delete blog posts 📝
-- Upload and show blog images 🖼️
 - Clean structure and easy to understand 💡
 
 ---
@@ -49,6 +48,7 @@ Open phpMyAdmin or any MySQL tool.
 Create a new database (example: blog_db)
 
 Run the SQL script below to create the blog_posts table:
+
 CREATE TABLE `blog_posts` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(255) NOT NULL,
@@ -60,7 +60,9 @@ CREATE TABLE `blog_posts` (
 );
 
 3️⃣ Update Config File
+
 Go to:
+
 includes/config.php
 And update your database login info:
 
