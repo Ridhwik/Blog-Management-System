@@ -14,6 +14,7 @@ Great if you're learning PHP or want to build your own basic blog website.
 Here’s how everything is organized:
 
 /blog-system/
+
 ├── admin/ → Admin panel (login, dashboard, create/edit post)
 
 ├── includes/ → Config and helper files
