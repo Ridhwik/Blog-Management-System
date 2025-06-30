@@ -82,9 +82,10 @@ Go to your browser and open:
 http://localhost/{location}/admin/login.php
 
 🔐 Default Admin Login
-You can hardcode the admin login in auth.php for now, like:
+
 $username = 'admin';
 $password = 'admin123'; // Use hashed password in real apps!
+
  Note: You can also run create_admin.php to create a default admin 
 
  ✌️ That's It!
