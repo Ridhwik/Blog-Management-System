@@ -81,12 +81,19 @@ Go to your browser and open:
 
 http://localhost/{location}/admin/login.php
 
+
+
 🔐 Default Admin Login
 
 $username = 'admin';
+
 $password = 'admin123'; // Use hashed password in real apps!
 
+
  Note: You can also run create_admin.php to create a default admin 
+
+
+ 
 
  ✌️ That's It!
 This project is just a start. It's simple and clean, so feel free to add your own ideas and make it awesome.
